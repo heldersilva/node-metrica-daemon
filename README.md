@@ -1,7 +1,7 @@
 node-metrica-daemon
 ===================
 
-A daemon application to expose, trough an http server information, provided by procfs-stats.
+A daemon application to expose, trough an http server, information provided by procfs-stats.
 
 Global stats:
 
@@ -25,4 +25,3 @@ Process stats:
 /:pid/argv
 /:pid/fds
 /:pid/threads
-/:pid/thread/:threadid
