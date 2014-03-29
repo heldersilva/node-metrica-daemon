@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+var procfs = require('procfs-stats');
+var forever = require('forever-monitor');
+
+// FIXME: Send error message.
+if(!procfs.works){
+  process.exit();
+}
+
+var child = new (forever.Monitor)('lib/server.js', {});
+
+child.start();

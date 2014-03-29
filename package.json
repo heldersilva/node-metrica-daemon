@@ -1,0 +1,15 @@
+{
+  "name": "node-metrica-daemon",
+  "version": "0.0.1",
+  "private": true,
+  "contributors": [
+    {"name": "Hélder Silva", "email": "helder.tavares.silva@gmail.com"},
+    {"name": "Yago Riveiro", "email": "yago.riveiro@gmail.com"}
+  ],
+  "dependencies": {
+    "restify": "~2.7.0",
+    "forever-monitor": ">=1.2.3",
+    "procfs-stats": ">=0.0.3",
+    "debug": "~0.7.4"
+  }
+}
