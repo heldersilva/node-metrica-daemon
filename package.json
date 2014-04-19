@@ -9,6 +9,7 @@
   "dependencies": {
     "restify": "~2.7.0",
     "forever-monitor": ">=1.2.3",
+    "async": ">=0.7.0",
     "procfs-stats": ">=0.0.3"
   },
   "devDependencies": {
